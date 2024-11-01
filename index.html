@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Gabriel Carvalho H.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <button id="theme-toggle" class="theme-toggle"> Modo Claro/Escuro </button>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="section-home">
+        <h1>Hey! I am <br> Gabriel Carvalho H.</h1>
+    </section>
+
+    <section id="about" class="section-about">
+        <h2>About Me</h2>
+        <p>Name: Gabriel Carvalho Horta</p>
+        <p>Date of Birth: September 5, 2006</p>
+        <p>Address: Sabará, MG, Brazil</p>
+        <p>Beginner in the IT area.</p>
+        <p>I am a communicative person, I like to dedicate myself to what I do. I enjoy working with the public, but I am more of an individualistic person.</p>
+    </section>
+
+    <div class="section-projects" id="projects">
+        <h2>Projects</h2>
+        <h3>Website reproductions</h3>
+        
+        <div class="project-gallery">
+           
+            <div class="project-item">
+                <a href="https://gabrielch05.github.io/REPRODU-O-DE-SITE-DISPLAY-FLEX/" target="_blank">
+                    <img src="Captura de tela 2024-09-12 160803.png" alt="Descrição do Projeto 1">
+                </a>
+                <button onclick="alert('Projeto 1 em construção!')">Click</button>
+            </div>
+    
+            
+            <div class="project-item">
+                <a href="https://link-do-seu-projeto2.com" target="_blank">
+                    <img src="Captura de tela 2024-09-12 161222.png" alt="Descrição do Projeto 2">
+                </a>
+                <button onclick="alert('Projeto 2 em construção!')">Click</button>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="skills" class="section-skills">
+        <h2>My Skills</h2>
+        <p>As I mentioned, I am still a novice in the IT field. I am currently learning HTML and CSS, and in the future, I plan to learn JavaScript. My more advanced knowledge is in Excel and hardware.</p>
+        <p>Education: Colégio Cotemig, expected graduation in 2025, Specialized in IT (in progress).</p>
+        <p>I intend to explore new areas in the future.</p>
+        <div class="skills-icons">
+            <img src="download.png" alt="HTML">
+            <img src="e43e4cd41ddffc21d2e6600dfca20306.jpg" alt="CSS">
+            <img src="images.png" alt="JavaScript">
+            <img src="c-sharp-adesivo-sticker-600x600.png" alt="C++">
+            
+        </div>
+    </section>
+
+    <section id="contact" class="section-contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Your name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <input type="email" id="email" name="email" placeholder="Your email address">
+            <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+            <textarea id="message" name="message" placeholder="Write your message here"></textarea>
+            
+
+            <button type="submit">Send message</button>
+        </form>
+        <div class="social-links">
+            <a href="https://github.com/gabrielch05" target="_blank">GitHub</a>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
